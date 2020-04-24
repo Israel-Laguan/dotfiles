@@ -1,0 +1,10 @@
+[user]
+	name = Israel-Laguan
+	email = israellaguan@gmail.com
+[alias]
+	ck = checkout
+    new = checkout -b
+    st = status
+    pu = push origin
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto)%d%C(reset) %C(normal)%s%C(reset) %C(dim white)%an%C(reset) %C(dim blue)(%ar) %C(reset)' --all
+	pushthis = "!f() { branchName=$1; git add . && git commit  && git push origin ${branchName}; }; f"

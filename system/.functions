@@ -1,0 +1,29 @@
+# https://www.phillip-kruger.com/post/some_bash_functions_for_git/
+function clone {
+    if [ $# -eq 0 ]; then
+        echo "Please enter repo name or full url:";
+        read repo;
+        clone $repo;
+    elif [[ $1 == --help ]] || [[ $1 == --h ]] || [[ $1 == --? ]]; then
+        echo "This will clone a git repo.";
+        echo "";
+        echo "Option 1: You can just provide the name, eg:";
+        echo "$ clone membership";
+        echo "This will do: git clone https://github.com/israel-laguan/membership.git";
+        echo "";
+        echo "Option 2: Provide the full URL";
+        echo "$ clone https://github.com/smallrye/smallrye-rest-client.git";
+        echo "This will do: git clone https://github.com/smallrye/smallrye-rest-client.git";
+    else    
+        if [[ $1 == https://* ]] || [[ $1 == git://* ]] || [[ $1 == ssh://* ]] ; then
+            echo git clone "$1";
+            git clone "$1";
+        else
+            URL='https://github.com/israel-laguan/'$1'.git';
+            echo git clone "$URL";
+            git clone "$URL";
+            cd ./$1
+        fi
+    fi
+}
+export -f clone

@@ -1,0 +1,7 @@
+alias c='clear'                             # c:            Clear terminal display
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias src='source ~/.bashrc'                # src:          Reload .bashrc file
