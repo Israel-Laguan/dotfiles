@@ -55,6 +55,7 @@ I finally decided that I wanted to be able to execute a single command to "boots
 - Prompt theme
 - `bash` functions
 - `vscode` settings
+- `vscode` snippets (Based on [this repo][snippets-repo])
 
 # Prerequisites
 
@@ -144,6 +145,8 @@ Feel free to check the [issues page][issues-url].
 
 📝 This project is licensed under the [MIT](LICENSE)\
 Feel free to fork this project and improve it
+
+[snippets-repo]: https://github.com/Israel-Laguan/vscode-extension-react-snippets
 
 [clone-unction]: https://www.phillip-kruger.com/post/some_bash_functions_for_git/
 [arch-prompt]: https://wiki.archlinux.org/index.php/Bash/Prompt_customization

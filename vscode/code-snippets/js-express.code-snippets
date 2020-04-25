@@ -1,0 +1,129 @@
+{
+	"ES6 Component Import": {
+		"prefix": "import",
+		"body": "import ${1:componentName} from './${1:componentName}';\n"
+	},
+	"throwNewError": {
+		"prefix": "throwerror",
+		"body": "throw new ${1:Error}('${2:message}')${3};",
+		"description": "throw new error"
+	},
+	"constRequirePackage": {
+		"prefix": "require",
+		"body": "const ${2:name} = require('${1:pkg}');",
+		"description": "const require package"
+	},
+	"exportsMember": {
+		"prefix": "export",
+		"body": "exports.${1:member} = ${2};",
+		"description": "exports.member"
+	},
+	"moduleExports": {
+		"prefix": "moduleexports",
+		"body": "module.exports = ${1};",
+		"description": "module.exports"
+	},
+	"destructObject": {
+		"prefix": "destruct",
+		"body": [
+			"const { $1 } = $2 ;"
+		],
+		"description": "Creates and assigns a local variable using object destructing"
+	},
+	"ternary": {
+		"prefix": "ternary",
+		"body": "${1:condition} ? ${2:ifTrue} : ${3:ifFalse};",
+		"description": "ternary operator"
+	},
+	"consoleLog": {
+		"prefix": "con-log",
+		"body": "console.log(${1});",
+		"description": "Displays a message in the console"
+	},
+	"consoleError": {
+		"prefix": "con-error",
+		"body": "console.error(${1});",
+		"description": "Displays a message in the console and also includes a stack trace from where the method was called"
+	},
+	"consoleInfo": {
+		"prefix": "con-info",
+		"body": "console.info(${1});",
+		"description": "Displays a message in the console but also displays a blue information icon along with the logged message"
+	},
+	"consoleTrace": {
+		"prefix": "con-trace",
+		"body": "console.trace(${1});",
+		"description": "Prints a stack trace from the point where the method was called"
+	},
+	"consoleTime": {
+		"prefix": "con-time",
+		"body": "console.time('${1}');",
+		"description": "Console time wrapper"
+	},
+	"consoleTimeEnd": {
+		"prefix": "con-timeend",
+		"body": "console.timeEnd('${1}');",
+		"description": "Console time end wrapper"
+	},
+	"consoleWarn": {
+		"prefix": "con-warn",
+		"body": "console.warn(${1});",
+		"description": "Displays a message in the console but also displays a yellow warning icon along with the logged message"
+	},
+	"app.get": {
+		"prefix": "app.get",
+		"body": [
+			"app.get('$1', ${2:(req, res)} => {\n\t${3}\n});"
+		],
+		"description": "Routes HTTP GET request to the specifed path with the specified callback functions."
+	},
+	"app.patch": {
+		"prefix": "app.patch",
+		"body": [
+			"app.patch('$1', ${2:(req, res)} => {\n\t${3}\n});"
+		],
+		"description": "Routes HTTP PATCH request to the specifed path with the specified callback functions."
+	},
+	"app.post": {
+		"prefix": "app.post",
+		"body": [
+			"app.post('$1', ${2:(req, res)} => {\n\t${3}\n});"
+		],
+		"description": "Routes HTTP POST requests to the specified path with the specified callback functions."
+	},
+	"app.path": {
+		"prefix": "app.path",
+		"body": [
+			"app.path();"
+		],
+		"description": "Returns the canonical path of the app, a string."
+	},
+	"app.put": {
+		"prefix": "app.put",
+		"body": [
+			"app.put('$1', ${2:(req, res)} => {\n\t${3}\n});"
+		],
+		"description": "Routes HTTP PUT requests to the specified path with the specified callback functions."
+	},
+	"app.delete": {
+		"prefix": "app.delete",
+		"body": [
+			"app.delete('$1', ${2:(req, res)} => {\n\t${3}\n});"
+		],
+		"description": "Routes HTTP DELETE requests to the specified path with the specified callback functions."
+	},
+	"app.route": {
+		"prefix": "app.route",
+		"body": [
+			"app.route('${1:/}');"
+		],
+		"description": "Returns an instance of a single route, which you can then use to handle HTTP verbs with optional middleware. Use app.route() to avoid duplicate route names (and thus typo errors)."
+	},
+	"res.send": {
+		"prefix": "res.send",
+		"body": [
+			"res.send($1);"
+		],
+		"description": "Express RESPONSE object"
+	}
+}
