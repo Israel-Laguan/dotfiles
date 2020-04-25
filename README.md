@@ -14,14 +14,14 @@
   </a>
 
   <h1 align="center">
-	My dotfiles!
+	Israel Laguan Linux's dotfiles!
   </h1>
 
   <p align="center">
     Collects all my important cross-distro system configurations
     <br />
-	  🖊️
-    <a href="https://">Read the article</a>
+	  <!-- 🖊️
+    <a href="https://">Read the article</a> -->
     🐞
     <a href="https://github.com/Israel-Laguan/dotfiles/issues">Report a Bug</a>
     🙋‍♂️
@@ -44,6 +44,10 @@
 
 These are my dotfiles. Take anything you want, but at your own risk. It targets debian systems, but 
 it should work on *nix as well (with apt-get).
+
+I've been using bash on-and-off for a long time (since Slackware Linux was distributed on 1.44MB floppy disks). In all that time, every time I've set up a new Linux or OS X machine, I've copied over my .bashrc file and my ~/bin folder to each machine manually. And I've never done a very good job of actually maintaining these files. It's been a total mess.
+
+I finally decided that I wanted to be able to execute a single command to "bootstrap" a new system to pull down all of my dotfiles and configs, as well as install all the tools I commonly use. In addition, I wanted to be able to re-execute that command at any time to synchronize anything that might have changed. Finally, I wanted to make it easy to re-integrate changes back in, so that other machines could be updated.
 
 # Features
 
@@ -120,7 +124,7 @@ Feel free to check the [issues page][issues-url].
 
 🤗 Give a ⭐️ if you like this project!
 
-Icons made by 
+## Icons made by 
 
 - <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
@@ -129,10 +133,21 @@ Icons made by
 - <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
 - <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+## Ideas for dotfiles
+
+- Clone Function by [Phillip Krueger][clone-unction]
+- Arch Linux [Documentation on Prompt Customization][arch-prompt]
+- VSCode [official documentation about setup extentions][vscode-extentions]
+
 # License
 
 📝 This project is licensed under the [MIT](LICENSE)\
 Feel free to fork this project and improve it
+
+[clone-unction]: https://www.phillip-kruger.com/post/some_bash_functions_for_git/
+[arch-prompt]: https://wiki.archlinux.org/index.php/Bash/Prompt_customization
+[vscode-extentions]: https://code.visualstudio.com/docs/editor/extension-gallery
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/dotfiles?style=for-the-badge
