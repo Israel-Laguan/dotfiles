@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+      "ritwickdey.liveserver",
+      "streetsidesoftware.code-spell-checker-spanish",
+      "streetsidesoftware.code-spell-checker",
+      "rbalet.code-spell-checker-fullstack",
+      "dbaeumer.vscode-eslint",
+      "coenraads.bracket-pair-colorizer-2",
+      "formulahendry.auto-complete-tag",
+      "ritwickdey.live-sass",
+      "christian-kohler.npm-intellisense",
+      "ionutvmi.path-autocomplete",
+      "esbenp.prettier-vscode"
+    ]
+  }

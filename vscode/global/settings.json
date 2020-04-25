@@ -1,0 +1,19 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.cursorBlinking": "smooth",
+    "files.trimFinalNewlines": true,
+    "workbench.sideBar.location": "right",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.fontFamily": "JetBrains Mono, Fira Code, monospace",
+    "editor.fontLigatures": true,
+    "terminal.integrated.rendererType": "dom",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 13,
+    "debug.console.fontSize": 13,
+    "markdown.preview.lineHeight": 1.2,
+    "workbench.colorTheme": "Lukin Theme"
+}

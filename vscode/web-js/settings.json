@@ -1,0 +1,10 @@
+{
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "cSpell.language": "en, es, fullstack",
+    "cSpell.allowCompoundWords": true,
+    "cSpell.languageSettings": [{ "languageId": "*", "dictionaries": ["fullstack"] }],
+    "cSpell.userWords": [
+        "Laguan",
+        "autenticación"
+    ],
+}
